@@ -16,7 +16,7 @@ void backgroundHandler(Location location) async {
   LiveActivitiesManager.init();
 
   final plugin = LiveActivities();
-  plugin.init(appGroupId: 'group.dimitridessus.liveactivities');
+  plugin.init(appGroupId: 'group.pa-png-test.liveactivities');
 
   final liveActivitiesID = await LiveActivitiesManager.load();
 

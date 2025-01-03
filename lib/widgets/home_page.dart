@@ -26,7 +26,7 @@ class _HomeState extends State<Home> {
     super.initState();
 
     _liveActivitiesPlugin.init(
-      appGroupId: 'group.dimitridessus.liveactivities',
+      appGroupId: 'group.pa-png-test.liveactivities',
     );
 
     _liveActivitiesPlugin.activityUpdateStream.listen((event) {
